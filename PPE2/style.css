@@ -1,0 +1,121 @@
+@CHARSET "ISO-8859-1";
+
+.header {
+	width:100%;
+	height:30px;
+	background-color:#83B321;
+	color:#fff;
+	text-align:center;
+	margin-bottom:20px;
+	padding-top:12px;
+}
+
+div.boutton{
+	border:none;
+	color: #fff;
+	
+}
+
+div.boutton input.supprimer {
+	background: url('effacer.png') no-repeat;
+	background-color:#ADD8E6;
+	text-align:center;
+	width: 150px;
+	height:40px;
+	font-size:16px;
+	border-radius:8px;
+	
+}
+
+div.boutton input.modifier {
+	background: url('modifier.jpg') no-repeat;
+	background-color:#ADD8E6;
+	text-align:center;
+	width: 150px;
+	height:40px;
+	font-size:16px;
+	border-radius:8px;
+
+}
+
+div.boutton input.valider {
+	background: url('valider.png') no-repeat;
+	background-color:#ADD8E6;
+	text-align:center;
+	width: 150px;
+	height:40px;
+	font-size:16px;
+	border-radius:8px;
+	
+}
+
+div.boutton input.ajouter {
+	background: url('ajouter.png') no-repeat;
+	background-color:#ADD8E6;
+	text-align:center;
+	width: 150px;
+	height:40px;
+	font-size:16px;
+	border-radius:8px;
+}
+
+div#droite{
+	float:right;
+	width:600px;
+}
+
+div#gauche{
+	float:left;
+	width:600px;
+}
+
+div.tableau table tr:nth-child(odd){
+	background-color:#E1FEDF;
+}
+
+div.tableau table tr:nth-child(even){
+	background-color:#B8FEB3;
+}
+input.supprimerTablo {
+width:65px;
+height:65px;
+border:none;
+background: url('effacerTablo.png');
+color: rgba(0,0,0,0);
+}
+
+input.modifierTablo {
+width:65px;
+height:65px;
+border:none;
+background-image: url('modifierTablo.png');
+color: rgba(0,0,0,0);
+}
+
+div.tablo{
+	width:65px;
+	height:65px;
+}
+
+div.tablo table td{
+	color:lime;
+}
+
+label{
+	display:block;
+	width: 150px;
+	float:left;
+}
+
+.separation{
+	clear: both;
+	position: absolute;
+	margin-left: 650px;
+	height: 600px;
+	width: 2px;
+	background: lime;
+}
+
+select{
+	border: 2px solid lime;
+}
